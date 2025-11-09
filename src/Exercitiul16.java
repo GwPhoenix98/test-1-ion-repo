@@ -8,8 +8,8 @@ public class Exercitiul16 {
         int ultIndice  = numere.length - 1;
         int lungime    = numere.length;
 
-        System.out.println("Primul indice este: " + primIndice);
-        System.out.println("Ultimu indice este: " + ultIndice);
+        System.out.println("Primul indice este: "       + primIndice);
+        System.out.println("Ultimu indice este: "       + ultIndice);
         System.out.println("Lungimea array-ului este: " + lungime);
 
     }
