@@ -8,7 +8,7 @@ public class Exercitiul12 {
         System.out.print("Introduceti virsta persoanei: ");
         int virsta = obScan.nextInt();
 
-        if ( virsta >= 0 || virsta > 135) {
+        if ( virsta <= 0 || virsta > 135) {
             System.out.println("Hai las-o mai moale :D");
         } else if ( virsta >= 1 && virsta < 12 ) {
             System.out.println("Este copil!");
